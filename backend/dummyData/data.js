@@ -7,5 +7,13 @@ const users = [
 		profilePicture: "something",
 		gender: "male",
 	},
+	{
+		_id: 2,
+		username: "Jason",
+		name: "Sam",
+		password: "12345",
+		profilePicture: "interesting",
+		gender: "male",
+	},
 ];
 export { users };

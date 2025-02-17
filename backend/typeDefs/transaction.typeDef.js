@@ -33,13 +33,13 @@ const transactionTypeDef = `#graphql
 
     input UpdateTransactionInput {
         transactionId: ID!
-        userId: String!
-        description: String!
-        paymentType: String!
-        category: String!
-        amount: Float!
-        location: String!
-        date: String!
+        userId: String
+        description: String
+        paymentType: String
+        category: String
+        amount: Float
+        location: String
+        date: String
     }
-`
-export default transactionTypeDef
+`;
+export default transactionTypeDef;
